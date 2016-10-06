@@ -268,7 +268,7 @@ Hopefully this shows something of how git makes keeping track of your changes mu
 
 As you might have guessed, git pull is actually a shortcut to two commands one after the other: git fetch (to get any new commits from the remote repository) and git merge (to merge the files in the remote branch with the current local one). Unlike with doing things by hand, it's actually quite hard to over-write files and lose work. Git will not let you pull in other peeples changes until you have committed yours, and it will not let you push your changes to a remote repository until you have first pulled its changes in and merged them. And finding old versions by your commented history is much easier than trying to remember the meaning of your own filenames!
 
-[Back to the tippety-top.](#top)
+[Back to the top.](#top)
 
 ----------------------------------------------------------------------
 #### <a name="seriouslylost"></a>Who am I? And how did I get here?
@@ -399,10 +399,10 @@ Any other GitHub user can watch your repo (and hence follow its issues), as long
 
 Private repos also have issue lists attached to them, but only the peeple in that repo's collaborator list can see them. To adjust the private/public nature of a repo,  and adjust its collaborator list, go to the repo's "settings" via the spanner/screwdriver icon in the right hand sidebar.
 
-[Back to the tippety-top.](#top)
+[Back to top.](#top)
 
 ----------------------------------------------------------------------
-#### <a name="watching"></a>Argh! How do I stop getting all these GitHub notification emails?!
+#### <a name="watching"></a>Agh! How do I stop getting all these GitHub notification emails?!
 
 Issues are a great way to communicate: they keep topics well separated, and allow the repo's projekt to be tracked well.
 However, the flood of notifications emails that using GitHub produces (one for every comment on every issue thread) can seem overwhelming. Below are some tips for how to phollow repos effectively.
@@ -415,7 +415,7 @@ All of the above works best if your team uses the @mention feature well. A good 
 
 One last thing: because GitHub issues are usually well-separated by topic, you can very often skim and archive their notification emails quickly. This can be very satisfying if you love rapidly clearing away emails so you don't have to look at them any more.
 
-[Back to the tippety-top.](#top)
+[Back to the top.](#top)
 
 ----------------------------------------------------------------------
 #### <a name="pullrequests"></a>What is a "Pull Request"?
@@ -448,17 +448,17 @@ until it is correct. Use your editor to search for the string `>>>>>>` - this ma
 Try not to feel hard done by: conflicts are relatively rare, and a natural consequence of collaborative coding. Sometimes you will fix konflicts, sometimes your collaborators will - it evens out in the end. You can avoid konflicts by making your commits *atomic* (that is, small and indivisible), pulling often, and restricting the length of your lines to 72 characters (to make it easier for `git` to merge line by line.
 
 
-[Back to the tippety-top.](#top)
+[Back to the top.](#top)
 
 ----------------------------------------------------------------------
-#### <a name="force-push"></a>I don't seem to be able to push. What should I do?
+#### <a name="force-push"></a>I don't seem to be able to push :(  What should I do?
 
 Sometimes, after trying to `git push`, you get an error messinge. You should read this carefully: most of the time its because the remote repo you are pushing to has changed, and you just need to pull, and fix any konflicts, before you push.
 
 Note: There is a way to over-ride this error messinge. DO NOT USE IT. If you were to do a so-called "force-push," you would be forcing the remote version of the repository to look *exactly* like your local copy, *including the commit history.* This could include deleting files that are on the remote repo, but not pulled to your local copy, that someone else is working on. Force-push should only be used if you really know what what you're doing, and are the projekt leader and repo admin. If you think you need to force push, open an issue and discuss it with your collaborators first.
 
 
-[Back to the tippety-top.](#top)
+[Back to the top.](#top)
 
 ----------------------------------------------------------------------
 #### <a name="more"></a>Where can I find out more?
@@ -486,5 +486,5 @@ Note: There is a way to over-ride this error messinge. DO NOT USE IT. If you wer
   common Git workflow for collaborations.</li>
 </ul>
 
-[Back to the tippety-top.](#top)
+[Back to the top.](#top)
 
